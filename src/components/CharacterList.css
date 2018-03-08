@@ -1,0 +1,14 @@
+import React, { Component } from 'react';
+import 'tachyons';
+
+class CharacterList extends Component {
+  render() {
+    console.log(this.props.name);
+    return (
+      <div className="">
+      </div>
+    );
+  }
+}
+
+export default CharacterList;
