@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import CharacterList from './components/CharacterList';
-import SearchBox from './components/SearchBox';
-import Scroll from './components/Scroll';
+import CharacterList from '../components/CharacterList';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
 import 'tachyons';
 
 class App extends Component {
